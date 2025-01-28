@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Demo_Spring_Security",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
