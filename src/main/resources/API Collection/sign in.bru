@@ -1,0 +1,22 @@
+meta {
+  name: sign in
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/signin
+  body: json
+  auth: none
+}
+
+headers {
+  Bearer: 
+}
+
+body:json {
+  {
+    "username":"user",
+    "password":"user123"
+  }
+}
