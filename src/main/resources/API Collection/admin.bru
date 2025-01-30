@@ -1,5 +1,5 @@
 meta {
-  name: preauthorize test
+  name: admin
   type: http
   seq: 3
 }
@@ -7,5 +7,10 @@ meta {
 get {
   url: http://localhost:8080/admin
   body: none
-  auth: none
+  auth: basic
+}
+
+auth:basic {
+  username: admin
+  password: password
 }
